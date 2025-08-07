@@ -99,7 +99,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             // Generar la fila de la tabla
             const fila = document.createElement('tr');
             fila.innerHTML = `
-                <td><i class="${inv.icon ? inv.icon : 'fas fa-chart-line'} ${iconoTipo}"></i> ${inv.nombre}</td>
+                <td><i class="${inv.icon ? inv.icon : 'fas fa-chart-line'} ${iconoTipo}"></i> <a href="https://www.google.com/finance/quote/${inv.nombre}:NYSE">${inv.nombre}</a></td>
                 <td>${inv.cantidadComprada.toFixed(8)}</td>
                 <td>$${inv.precioDeCompra.toLocaleString('es-ES', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</td>
                 <td>$${costoTotal.toLocaleString('es-ES', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</td>

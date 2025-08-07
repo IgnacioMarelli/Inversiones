@@ -147,6 +147,11 @@ td {
     transition: height 0.5s ease;
     animation: fadeInBar 0.5s ease forwards;
 }
+a {
+  color: inherit;       /* Hereda el color del texto circundante */
+  text-decoration: none; /* Elimina el subrayado */
+}
+
 
 .barra:hover {
     background-color: #f9d863;
