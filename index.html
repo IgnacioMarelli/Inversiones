@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel de Inversiones Personal 📈</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Icono de Font Awesome para los iconos de la tabla -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="title">Dashboard de Inversiones 📈</h1>
+        
+        <div class="header-stats">
+            <div class="stat-card">
+                <h2>Total Invertido</h2>
+                <p id="total-invertido">$0.00</p>
+            </div>
+            <div class="stat-card">
+                <h2>Valor Actual Total</h2>
+                <p id="valor-actual-total">$0.00</p>
+            </div>
+            <div class="stat-card">
+                <h2>Ganancia/Pérdida Total</h2>
+                <p id="ganancia-perdida-total" class="neutro">$0.00</p>
+            </div>
+        </div>
+
+        <div class="table-container">
+            <h2>Detalle de Inversiones</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Activo</th>
+                        <th>Cantidad</th>
+                        <th>Costo Unitario</th>
+                        <th>Costo Total</th>
+                        <th>Precio Actual</th>
+                        <th>Valor Actual</th>
+                        <th>Ganancia/Pérdida</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="grafico-container">
+            <h2>Gráfico de Distribución</h2>
+            <div class="grafico-barras" id="grafico-barras">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
