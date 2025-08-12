@@ -6,7 +6,6 @@ document.addEventListener('DOMContentLoaded', async () => {
         // Criptomonedas
         { nombre: 'Bitcoin', id: 'bitcoin', precioDeCompra: 117375.57, cantidadComprada: 0.00371702, tipo: 'crypto', icon: 'fab fa-btc' },
         { nombre: 'BNB', id: 'binancecoin', precioDeCompra: 760.834, cantidadComprada: 0.07729504, tipo: 'crypto', icon: 'fab fa-btc' }, // Usamos el mismo icono para simular
-        { nombre: 'USDT', id: 'tether', precioDeCompra: 1.00, cantidadComprada: 93.66, tipo: 'crypto', icon: 'fas fa-dollar-sign' }, // USDT, se asume precio de 1 USD
 
         // Acciones y ETFs
         { nombre: 'QQQ', id: 'QQQ', precioDeCompra: 553.619, cantidadComprada: 0.16256594, tipo: 'stock' }, // 90 / 0.16256594
