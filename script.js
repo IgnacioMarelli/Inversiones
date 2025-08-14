@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     // a partir de los costos totales que mencionaste.
     const inversiones = [
         // Criptomonedas
-        { nombre: 'Bitcoin', id: 'bitcoin', precioDeCompra: 117375.57, cantidadComprada: 0.00308704, tipo: 'crypto', icon: 'fab fa-btc' },
+        { nombre: 'Bitcoin', id: 'bitcoin', precioDeCompra: 117637.011, cantidadComprada: 0.00435579, tipo: 'crypto', icon: 'fab fa-btc' },
         { nombre: 'BNB', id: 'binancecoin', precioDeCompra: 760.834, cantidadComprada: 0.04229507, tipo: 'crypto', icon: 'fab fa-btc' }, // Usamos el mismo icono para simular
 
         // Acciones y ETFs
