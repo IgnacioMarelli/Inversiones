@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     // a partir de los costos totales que mencionaste.
     const inversiones = [
         // Criptomonedas
-        { nombre: 'Bitcoin', id: 'bitcoin', precioDeCompra: 116666.67, cantidadComprada: 0.006, tipo: 'crypto', icon: 'fab fa-btc' },
+        { nombre: 'Bitcoin', id: 'bitcoin', precioDeCompra: 116046.38, cantidadComprada: 0.00683579, tipo: 'crypto', icon: 'fab fa-btc' },
         // Acciones y ETFs
         { nombre: 'QQQ', id: 'QQQ', precioDeCompra: 553.619, cantidadComprada: 0.16256594, tipo: 'stock' }, // 90 / 0.16256594
         { nombre: 'SPY 500', id: 'SPY', precioDeCompra: 621.616, cantidadComprada: 0.14478885, tipo: 'stock' }, // 90 / 0.14478885
