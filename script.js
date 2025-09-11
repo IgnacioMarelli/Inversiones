@@ -12,9 +12,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         { nombre: 'DGRO', id: 'DGRO', precioDeCompra: 66.273, cantidadComprada: 0.754474, tipo: 'stock' }, // 50 / 0.754474
         { nombre: 'PYPL', id: 'PYPL', precioDeCompra: 72.508, cantidadComprada: 0.689681, tipo: 'stock' }, // 50 / 0.689681
         { nombre: 'XLV', id: 'XLV', precioDeCompra: 141.749, cantidadComprada: 0.352769, tipo: 'stock' }, // 50 / 0.352769
-        { nombre: 'BABA', id: 'BABA', precioDeCompra: 118.828, cantidadComprada: 0.210392, tipo: 'stock' }, // 25 / 0.210392
         { nombre: 'SPOT', id: 'SPOT', precioDeCompra: 705.28, cantidadComprada: 0.0844, tipo: 'stock' } // 25 / 0.700193
-
     ];
 
     const tablaBody = document.querySelector('tbody');
