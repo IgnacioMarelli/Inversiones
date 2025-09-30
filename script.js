@@ -6,7 +6,6 @@ document.addEventListener('DOMContentLoaded', async () => {
         // Acciones y ETFs
         { nombre: 'QQQ', id: 'QQQ', precioDeCompra: 553.619, cantidadComprada: 0.16256594, tipo: 'stock' },
         { nombre: 'SPY 500', id: 'SPY', precioDeCompra: 621.616, cantidadComprada: 0.14478885, tipo: 'stock' },
-        { nombre: 'MELI', id: 'MELI', precioDeCompra: 2458.452, cantidadComprada: 0.036608, tipo: 'stock' },
         { nombre: 'DGRO', id: 'DGRO', precioDeCompra: 66.273, cantidadComprada: 0.754474, tipo: 'stock' },
         { nombre: 'PYPL', id: 'PYPL', precioDeCompra: 72.508, cantidadComprada: 0.689681, tipo: 'stock' },
         { nombre: 'XLV', id: 'XLV', precioDeCompra: 141.749, cantidadComprada: 0.352769, tipo: 'stock' },
