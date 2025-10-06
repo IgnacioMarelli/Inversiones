@@ -7,10 +7,11 @@ document.addEventListener('DOMContentLoaded', async () => {
         { nombre: 'QQQ', id: 'QQQ', precioDeCompra: 553.619, cantidadComprada: 0.16256594, tipo: 'stock' },
         { nombre: 'SPY 500', id: 'SPY', precioDeCompra: 621.616, cantidadComprada: 0.14478885, tipo: 'stock' },
         { nombre: 'DGRO', id: 'DGRO', precioDeCompra: 66.273, cantidadComprada: 0.754474, tipo: 'stock' },
-        { nombre: 'PYPL', id: 'PYPL', precioDeCompra: 69.755, cantidadComprada: 1.433582, tipo: 'stock' },
-        { nombre: 'XLV', id: 'XLV', precioDeCompra: 141.749, cantidadComprada: 0.352769, tipo: 'stock' },
         { nombre: 'ADBE', id: 'ADBE', precioDeCompra: 364.07, cantidadComprada: 0.1374, tipo: 'stock' },
-        { nombre: 'AAPL', id: 'AAPL', precioDeCompra: 229.36, cantidadComprada: 0.0436, tipo: 'stock' }
+        { nombre: 'YPF', id: 'YPF', precioDeCompra: 23.6434, cantidadComprada: 0.8459, tipo: 'stock' },
+        { nombre: 'BIDU', id: 'BIDU', precioDeCompra: 140.173, cantidadComprada: 0.05429, tipo: 'stock' },
+        { nombre: 'MCHI', id: 'MCHI', precioDeCompra: 67.0875, cantidadComprada: 0.113434, tipo: 'stock' },
+        { nombre: 'JD', id: 'JD', precioDeCompra: 36.1764, cantidadComprada: 0.210358, tipo: 'stock' }
     ];
 
     const tablaBody = document.querySelector('tbody');
@@ -103,9 +104,10 @@ document.addEventListener('DOMContentLoaded', async () => {
             if (valorGrafico > maxValor) maxValor = valorGrafico;
             inv.valorActual = valorActual;
         }
-
+        
         // Totales globales
         gananciaPerdidaTotal = valorActualTotal - totalInvertido;
+        gananciaPerdidaTotal=gananciaPerdidaTotal+15;
         const totalGananciaClase = gananciaPerdidaTotal > 0 ? 'ganancia' : (gananciaPerdidaTotal < 0 ? 'perdida' : 'neutro');
 
         totalInvertidoElemento.textContent = `$${totalInvertido.toLocaleString('es-ES', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
