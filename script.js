@@ -2,7 +2,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     const inversiones = [
         // Criptomonedas
         { nombre: 'Bitcoin', id: 'bitcoin', precioDeCompra: 114110.37, cantidadComprada: 0.01143324, tipo: 'crypto', icon: 'fab fa-btc' },
-        { nombre: 'BNB', id: 'binancecoin', precioDeCompra: 959.2, cantidadComprada: 0.044, tipo: 'crypto', icon: 'fab fa-btc' },
         // Acciones y ETFs
         { nombre: 'QQQ', id: 'QQQ', precioDeCompra: 553.619, cantidadComprada: 0.16256594, tipo: 'stock' },
         { nombre: 'SPY 500', id: 'SPY', precioDeCompra: 621.616, cantidadComprada: 0.14478885, tipo: 'stock' },
@@ -107,7 +106,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         
         // Totales globales
         gananciaPerdidaTotal = valorActualTotal - totalInvertido;
-        gananciaPerdidaTotal=gananciaPerdidaTotal+15;
+        gananciaPerdidaTotal=gananciaPerdidaTotal+31;
         const totalGananciaClase = gananciaPerdidaTotal > 0 ? 'ganancia' : (gananciaPerdidaTotal < 0 ? 'perdida' : 'neutro');
 
         totalInvertidoElemento.textContent = `$${totalInvertido.toLocaleString('es-ES', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
