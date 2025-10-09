@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         
         // Totales globales
         gananciaPerdidaTotal = valorActualTotal - totalInvertido;
-        gananciaPerdidaTotal=gananciaPerdidaTotal+1580;
+        gananciaPerdidaTotal=gananciaPerdidaTotal+196;
         const totalGananciaClase = gananciaPerdidaTotal > 0 ? 'ganancia' : (gananciaPerdidaTotal < 0 ? 'perdida' : 'neutro');
 
         totalInvertidoElemento.textContent = `$${totalInvertido.toLocaleString('es-ES', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
