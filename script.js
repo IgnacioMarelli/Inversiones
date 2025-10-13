@@ -1,6 +1,9 @@
 document.addEventListener('DOMContentLoaded', async () => {
     const inversiones = [
-        { nombre: 'QQQ', id: 'QQQ', precioDeCompra: 553.619, cantidadComprada: 0.16256594, tipo: 'stock' },
+        {nombre:'BTC', id:'BTC', precioDeCompra: 119000, cantidadComprada:0.01255, tipo: 'crypto'},
+        {nombre:'SOL', id:'SOL', precioDeCompra:184.46, cantidadComprada:1.355302, tipo:'crypto'},
+        {nombre:'ETH', id:'ETH', precioDeCompra:3881.023, cantidadComprada:0.032208, tipo:'crypto'},
+        { nombre: 'QQQ', id: 'QQQ', precioDeCompra: 590.1, cantidadComprada: 0.36446594, tipo: 'stock' },
         { nombre: 'SPY 500', id: 'SPY', precioDeCompra: 621.616, cantidadComprada: 0.14478885, tipo: 'stock' },
         { nombre: 'DGRO', id: 'DGRO', precioDeCompra: 66.273, cantidadComprada: 0.754474, tipo: 'stock' },
         { nombre: 'ADBE', id: 'ADBE', precioDeCompra: 364.07, cantidadComprada: 0.1374, tipo: 'stock' },
