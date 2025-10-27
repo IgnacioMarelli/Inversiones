@@ -8,7 +8,6 @@ document.addEventListener('DOMContentLoaded', async () => {
         { nombre: 'SPY 500', id: 'SPY', precioDeCompra: 621.616, cantidadComprada: 0.14478885, tipo: 'stock' },
         { nombre: 'DGRO', id: 'DGRO', precioDeCompra: 66.273, cantidadComprada: 0.754474, tipo: 'stock' },
         { nombre: 'ADBE', id: 'ADBE', precioDeCompra: 364.07, cantidadComprada: 0.1374, tipo: 'stock' },
-        { nombre: 'YPF', id: 'YPF', precioDeCompra: 23.6434, cantidadComprada: 0.8459, tipo: 'stock' },
         { nombre: 'BIDU', id: 'BIDU', precioDeCompra: 140.173, cantidadComprada: 0.05429, tipo: 'stock' },
         { nombre: 'MCHI', id: 'MCHI', precioDeCompra: 67.0875, cantidadComprada: 0.113434, tipo: 'stock' },
         { nombre: 'JD', id: 'JD', precioDeCompra: 36.1764, cantidadComprada: 0.210358, tipo: 'stock' }
